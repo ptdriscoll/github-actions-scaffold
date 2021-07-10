@@ -1,11 +1,11 @@
-name: AWS Amazon Linux 2, Python 3.7.10
+name: AWS Amazon Linux 2, Python 3.7
 on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python 3.7.10
+    - name: Set up Python 3.7
       uses: actions/setup-python@v1
       with:
         python-version: 3.7.10
