@@ -11,8 +11,16 @@ Create virtualenv: ```python3 -m venv ~/.github-actions-scaffold```
 
 Source it: ```source ~/.github-actions-scaffold/bin/activate```
 
+Install packages: ```make all-aws```
+
+Run locally: ```python hello.py```
+
 ### To use in Google Cloud Shell
 
 Create virtualenv: ```virtualenv ~/.github-actions-scaffold```
 
 Source it: ```source ~/.github-actions-scaffold/bin/activate```
+
+Install packages: ```make all-gcp```
+
+Run locally: ```python hello.py```
