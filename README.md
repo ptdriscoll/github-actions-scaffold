@@ -5,6 +5,15 @@
 # github-actions-scaffold
 A Python scaffold for building out continuous integrations using GitHub Actions.
 
+### Install into environment
+
+```
+git clone https://github.com/ptdriscoll/github-actions-scaffold.git
+```
+```
+cd github-actions-scaffold
+```
+
 ### To use in Amazon Cloud9
 
 Create virtualenv: ```python3 -m venv ~/.github-actions-scaffold```
