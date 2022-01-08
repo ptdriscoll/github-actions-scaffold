@@ -5,7 +5,7 @@
 # github-actions-scaffold
 A Python scaffold for building out continuous integrations using GitHub Actions.
 
-### Install into environment
+### Install
 
 ```
 git clone https://github.com/ptdriscoll/github-actions-scaffold.git
